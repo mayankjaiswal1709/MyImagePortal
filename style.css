@@ -1,0 +1,257 @@
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: black;
+    }
+    
+    .firstcontainer {
+        margin: auto;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+    }
+    
+    .firstcontainer img {
+        height: 34vw;
+        width: 100%;
+        overflow: visible;
+    }
+    
+    .firstcontainer h1 {
+        display: flex;
+        position: absolute;
+        top: 23vw;
+        right: 25vw;
+        font-size: 4vw;
+        color: white;
+        animation: opacity 3s;
+    }
+    
+    .firstcontainer h2 {
+        display: flex;
+        position: absolute;
+        top: 28vw;
+        right: 24vw;
+        font-size: 1vw;
+        color: white;
+        animation: opacity 5s;
+        letter-spacing: 0.7vw;
+    }
+    
+    @keyframes opacity {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 50;
+        }
+        100% {
+            opacity: 100;
+        }
+    }
+    
+    .Memories {
+        background-color: black;
+    }
+    
+    .Memories h1 {
+        font-size: 8vw;
+        font-family: cursive;
+        letter-spacing: 1vw;
+        display: flex;
+        justify-content: center;
+        animation: animate;
+    }
+    
+    .Memories h1 span {
+        display: table-cell;
+        margin: 0;
+        padding: 0;
+        animation: animate 3s linear infinite;
+    }
+    
+    .Memories h1 span:nth-child(1) {
+        animation-delay: 0.0s;
+    }
+    
+    .Memories h1 span:nth-child(2) {
+        animation-delay: 0.25s;
+    }
+    
+    .Memories h1 span:nth-child(3) {
+        animation-delay: 0.50s;
+    }
+    
+    .Memories h1 span:nth-child(4) {
+        animation-delay: 0.75s;
+    }
+    
+    .Memories h1 span:nth-child(5) {
+        animation-delay: 1.00s;
+    }
+    
+    .Memories h1 span:nth-child(6) {
+        animation-delay: 1.25s;
+    }
+    
+    .Memories h1 span:nth-child(7) {
+        animation-delay: 1.50s;
+    }
+    
+    .Memories h1 span:nth-child(8) {
+        animation-delay: 1.75s;
+    }
+    
+    @keyframes animate {
+        0%,
+        100% {
+            color: #fff;
+            filter: blur(2px);
+            text-shadow: 0 0 10px #e0bd1e, 0 0 20px #3e4547, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff, 0 0 200px #00b3ff;
+        }
+        0%,
+        10% {
+            color: #111;
+            filter: blur(0px);
+            text-shadow: none;
+        }
+    }
+    
+    .secContainer {
+        /* border: 2px solid rgb(234, 0, 255); */
+        display: flex;
+        justify-content: space-evenly;
+        /* margin-top: 1vw; */
+        background-color: black;
+    }
+    
+    .ClgMemories {
+        /* border: 2px solid rgb(0, 81, 255); */
+        animation: opacity 1s;
+        height: auto;
+    }
+    
+    .SchoolMemories {
+        /* border: 2px solid rgb(21, 255, 0); */
+        animation: opacity 2s;
+        height: auto;
+    }
+    
+    .HostelMemories {
+        /* border: 2px solid rgb(241, 15, 121); */
+        animation: opacity 3s;
+        height: auto;
+    }
+    
+    .OtherMemories {
+        /* border: 2px solid rgb(0, 238, 255); */
+        animation: opacity 4s;
+        height: auto;
+    }
+    
+    .ClgMemories img {
+        height: 13vw;
+        width: 100%;
+        overflow: visible;
+        margin-top: 1vw;
+        padding: 1vw;
+        display: block;
+        transition: 2s;
+    }
+    
+    .SchoolMemories img {
+        height: 13vw;
+        width: 100%;
+        overflow: visible;
+        margin-top: 2vw;
+        padding: 1vw;
+        display: block;
+        transition: 2s;
+    }
+    
+    .HostelMemories img {
+        height: 13vw;
+        width: 100%;
+        overflow: visible;
+        margin-top: 1vw;
+        padding: 1vw;
+        display: block;
+        transition: 2s;
+    }
+    
+    .OtherMemories img {
+        height: 13vw;
+        width: 100%;
+        overflow: visible;
+        margin-top: 2vw;
+        padding: 1vw;
+        display: block;
+        transition: 2s;
+    }
+    
+    .ClgMemories:hover img {
+        transform: scale3d(1.3);
+        transform: scale(1.2);
+    }
+    
+    .SchoolMemories:hover img {
+        transform: scale3d(1.3);
+        transform: scale(1.2);
+    }
+    
+    .HostelMemories:hover img {
+        transform: scale3d(1.3);
+        transform: scale(1.2);
+    }
+    
+    .OtherMemories:hover img {
+        transform: scale3d(1.3);
+        transform: scale(1.2);
+    }
+    
+    .ClgMemories h2 {
+        color: white;
+        display: flex;
+        position: absolute;
+        top: 56vw;
+        left: 6vw;
+        font-size: 3vw;
+        animation: opacity 3s;
+    }
+    
+    .SchoolMemories h2 {
+        color: white;
+        display: flex;
+        position: absolute;
+        top: 56vw;
+        left: 28vw;
+        font-size: 3vw;
+        color: white;
+        animation: opacity 3s;
+    }
+    
+    .HostelMemories h2 {
+        color: white;
+        display: flex;
+        position: absolute;
+        top: 56vw;
+        left: 52vw;
+        font-size: 3vw;
+        color: white;
+        animation: opacity 3s;
+    }
+    
+    .OtherMemories h2 {
+        color: white;
+        display: flex;
+        position: absolute;
+        top: 56vw;
+        right: 12vw;
+        font-size: 3vw;
+        color: white;
+        animation: opacity 3s;
+    }
